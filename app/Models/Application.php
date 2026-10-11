@@ -1,0 +1,19 @@
+
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Application extends Model
+{
+    protected $table = 'apps';
+
+    protected $fillable = [
+        'name',
+        'slug',
+        'domain',
+        'description',
+        'status',
+    ];
+}
